@@ -1,0 +1,5 @@
+Contenu : SkillTree + CustomMobs + le fichier de compilation (.github).
+Envoie TOUT le contenu de ce dossier dans un depot GitHub vide.
+Le dossier .github est cache : affiche les fichiers caches sous Windows
+(Affichage > Afficher > Elements masques) avant de faire glisser.
+Ensuite : onglet Actions > coche verte > Artifacts > "Plugins" (contient les 2 jars).

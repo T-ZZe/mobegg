@@ -1,0 +1,15 @@
+name: CustomMobs
+version: 1.0
+main: fr.mobs.MobsPlugin
+api-version: "26.3"
+commands:
+  mobegg:
+    description: Donne des oeufs de mobs custom
+    usage: /mobegg <give|list> ...
+    aliases: [oeuf]
+    permission: mobs.admin
+    permission-message: "§cCette commande est réservée aux opérateurs."
+permissions:
+  mobs.admin:
+    description: Donner des oeufs de mobs custom
+    default: op
